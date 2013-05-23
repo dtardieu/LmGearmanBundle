@@ -1,5 +1,6 @@
-LmGearman
-=========
+===============
+LmGearmanBundle
+===============
 
 This library provides a service for implementing a Gearman client:
 http://github.com/FriendsOfSymfony/FOSRest
