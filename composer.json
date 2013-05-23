@@ -1,5 +1,5 @@
 {
-    "name": "Lm/GearmanBundle",
+    "name": "lm/gearmanbundle",
     "type": "symfony-bundle",
     "description": "Symfony Gearman Client Bundle",
     "keywords": [
