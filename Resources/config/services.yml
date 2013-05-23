@@ -1,0 +1,7 @@
+parameters:
+#    lm_gearman.example.class: Lm\GearmanBundle\Example
+
+services:
+    gearman:
+        class: Lm\GearmanBundle\Service\LmGearman
+        arguments: [%gearman_host%,%gearman_port%]
