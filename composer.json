@@ -2,16 +2,19 @@
     "name": "Lm/GearmanBundle",
     "type": "symfony-bundle",
     "description": "Symfony Gearman Client Bundle",
-    "keywords": ["Gearman", "Client"],
+    "keywords": [
+        "Gearman",
+        "Client"
+    ],
     "license": "MIT",
     "authors": [
         {
-            "name": "Christophe Charbuillet",
-        },
+            "name": "Christophe Charbuillet"
+        }
     ],
     "require": {
         "php": ">=5.3.2",
-        "symfony/framework-bundle":         ">=2.1",
+        "symfony/framework-bundle": ">=2.1"
     },
-    "target-dir": "Lm/Bundle/GearmanBundle",
+    "target-dir": "Lm/Bundle/GearmanBundle"
 }
