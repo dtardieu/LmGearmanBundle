@@ -31,6 +31,16 @@ class LmGearman
 		
 
 	}
+//  return 0 if ok, -1 if error
+	public function doBackgroundJob($functionName,$data) 
+	{
+
+		$client = new \GearmanClient();
+		$client->addServer($this->gearman_host,$this->gearman_port);
+		$result = $client->doBackground($functionName, $data);
+		return ($client->returnCode() == GEARMAN_SUCCESS -1);
+		
+	}
 
 
 
