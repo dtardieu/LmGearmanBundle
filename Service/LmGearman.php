@@ -26,7 +26,7 @@ class LmGearman
 
 		$client = new \GearmanClient();
 		$client->addServer($this->gearman_host,$this->gearman_port);
-		$result = $client->do($functionName, $data);
+		$result = $client->doNormal($functionName, $data);
 		return $result;
 		
 
